@@ -1,8 +1,7 @@
-#include <linux/slab.h>
-#include <linux/mutex.h>
-
 #include "feature.h"
 #include "klog.h" // IWYU pragma: keep
+
+#include <linux/mutex.h>
 
 static const struct ksu_feature_handler *feature_handlers[KSU_FEATURE_MAX];
 
